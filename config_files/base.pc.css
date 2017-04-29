@@ -1,6 +1,6 @@
 ﻿@charset "utf-8";
 
-@font-face { font-family: 'clouddream'; src: url('./config_files/clouddream.eot'); src: url('./config_files/clouddream.eot') format('embedded-opentype'), url('./config_files/clouddream.woff') format('woff'), url('./config_files/clouddream.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'clouddream'; src: url('.//clouddream.eot'); src: url('.//clouddream.eot') format('embedded-opentype'), url('.//clouddream.woff') format('woff'), url('.//clouddream.ttf') format('truetype'); font-weight: normal; font-style: normal; }
 
 .iconfont { display: inline-block; font-family: "clouddream"; font-size: 16px; font-style: normal; cursor: default; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
@@ -51,7 +51,7 @@ code, kbd, pre, samp { font-family: monospace,serif; font-size: 1em; }
 .renderfullScreen { position: absolute; z-index: 1; height: 100%; }
 
 /* Select */
-.select { position: relative; padding: 0 0 0 10px; width: 78px; height: 23px; line-height: 23px; border: 1px solid #E0E0E0; background: #F9F9F9 url(./config_files/select_bg.gif) no-repeat 66px center; text-align: left; font-size: 12px; color: #444; cursor: pointer; }
+.select { position: relative; padding: 0 0 0 10px; width: 78px; height: 23px; line-height: 23px; border: 1px solid #E0E0E0; background: #F9F9F9 url(.//select_bg.gif) no-repeat 66px center; text-align: left; font-size: 12px; color: #444; cursor: pointer; }
 
 ul.select_list { position: absolute; top: 22px; left: -1px; z-index: 1000; display: none; padding: 0; width: 88px; border: 1px solid #E0E0E0; border-top: none; background: #F9F9F9; }
 ul.select_list li { display: block; padding: 0 0 0 10px; line-height: 25px; text-align: left; font-size: 12px; color: #999; }
